@@ -11,11 +11,11 @@ I am a master's student at Keio University, where I am advised by Prof. [Komei S
 
 ## 📝 Research Interests
 
-• **Multimodal Learning**: Vision-Language Models, Video Understanding
+• **Foundation Models**: Vision-Language Models, Vision-Language-Action Models
 
-• **Embodied AI**: Mobile Manipulation, Vision-Language-Action Models  
+• **Multimodal Language Understanding**: Video Understanding, Self-supervised Learning
 
-• **Efficient Modeling**: Foundation Models, Computational Optimization
+• **Embodied AI**: Service Robots, Mobile Manipulation
 
 ## 📰 News
 
