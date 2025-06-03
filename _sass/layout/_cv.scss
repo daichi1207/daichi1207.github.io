@@ -1,0 +1,146 @@
+/* ==========================================================================
+   CV PAGE
+   ========================================================================== */
+
+.cv-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.cv-header {
+  text-align: center;
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+  background-color: var(--global-background-color);
+  border-radius: 8px;
+  border: 1px solid var(--global-border-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  p {
+    margin: 0;
+    font-size: $type-size-5;
+    color: var(--global-text-color-light);
+  }
+
+  a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.cv-embed {
+  margin: 1.5em 0;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  iframe {
+    border: none;
+    display: block;
+    width: 100%;
+    min-height: 800px;
+    background-color: white;
+  }
+}
+
+.cv-footer {
+  text-align: center;
+  margin-top: 1.5em;
+  padding: 1em;
+
+  .btn {
+    font-size: $type-size-5;
+    padding: 0.8em 1.5em;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+
+    &--primary {
+      background-color: var(--global-theme-color);
+      color: white;
+      border: 2px solid var(--global-theme-color);
+
+      &:hover {
+        background-color: transparent;
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.cv-fallback {
+  text-align: center;
+  padding: 2em;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin: 1em 0;
+
+  p {
+    margin-bottom: 1em;
+    color: var(--global-text-color-light);
+  }
+
+  .btn {
+    margin: 0.5em;
+  }
+}
+
+/* Responsive design */
+@include breakpoint($large) {
+  .cv-embed iframe {
+    min-height: 900px;
+  }
+}
+
+@include breakpoint($medium) {
+  .cv-embed iframe {
+    min-height: 700px;
+  }
+}
+
+@include breakpoint($small) {
+  .cv-container {
+    margin: 0 -1em;
+  }
+
+  .cv-header {
+    margin: 0 1em 1em 1em;
+    padding: 1em;
+
+    p {
+      font-size: $type-size-6;
+    }
+  }
+
+  .cv-embed {
+    margin: 0 1em;
+    border-radius: 4px;
+
+    iframe {
+      min-height: 500px;
+    }
+  }
+
+  .cv-footer {
+    margin: 1em;
+    padding: 0.5em;
+
+    .btn {
+      font-size: $type-size-6;
+      padding: 0.6em 1.2em;
+    }
+  }
+
+  .cv-header p {
+    font-size: $type-size-7;
+  }
+} 

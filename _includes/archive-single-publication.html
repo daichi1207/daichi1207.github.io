@@ -1,0 +1,81 @@
+{% include base_path %}
+
+{% if post.thumbnail %}
+  {% capture thumbnail %}{{ post.thumbnail }}{% endcapture %}
+{% else %}
+  {% assign thumbnail = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item publication-item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="publication-layout">
+      <!-- Thumbnail Section -->
+      <div class="publication-thumbnail">
+        {% if thumbnail %}
+          <img src=
+            {% if thumbnail contains "://" %}
+              "{{ thumbnail }}"
+            {% else %}
+              "{{ thumbnail | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            alt="{{ title }}" class="publication-image">
+        {% endif %}
+      </div>
+
+      <!-- Content Section -->
+      <div class="publication-content">
+        <h2 class="publication-title" itemprop="headline">
+          {% if post.link %}
+            <a href="{{ post.link }}">{{ title }}</a>
+          {% else %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          {% endif %}
+        </h2>
+
+        {% if post.authors %}
+          <p class="publication-authors">{{ post.authors }}</p>
+        {% endif %}
+
+        {% if post.venue %}
+          <p class="publication-venue">
+            <em>{{ post.venue }}</em>
+            {% if post.date %}
+              {% if post.venue %} • {% endif %}{{ post.date | default: "1900-01-01" | date: "%Y" }}
+            {% endif %}
+          </p>
+        {% endif %}
+
+        <!-- Links Section -->
+        {% if post.paperurl or post.codeurl or post.blogposturl or post.slidesurl or post.bibtexurl %}
+          <div class="publication-links">
+            {% if post.paperurl %}
+              <a href="{{ post.paperurl }}" class="publication-link">Paper</a>
+            {% endif %}
+            {% if post.codeurl %}
+              <a href="{{ post.codeurl }}" class="publication-link">Code</a>
+            {% endif %}
+            {% if post.blogposturl %}
+              <a href="{{ post.blogposturl }}" class="publication-link">Blogpost</a>
+            {% endif %}
+            {% if post.slidesurl %}
+              <a href="{{ post.slidesurl }}" class="publication-link">Slides</a>
+            {% endif %}
+            {% if post.bibtexurl %}
+              <a href="{{ post.bibtexurl }}" class="publication-link">Bibtex</a>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if post.excerpt %}
+          <p class="publication-excerpt">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+</div> 
