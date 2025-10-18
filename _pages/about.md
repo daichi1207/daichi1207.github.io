@@ -19,6 +19,8 @@ I am a master's student at Keio University, where I am advised by Prof. [Komei S
 
 ## 📰 News
 
+• [2025/09] Our paper is avaliable on  [arXiv](/publication/TakanamiarXiv25)
+
 • [2025/03] Our paper has been accepted to [IEEE RA-L](/publication/KatsumataRAL25)
 
 • [2025/02] Our paper has been accepted to [IEEE RA-L](/publication/yashimaRAL25)
