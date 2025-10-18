@@ -2,7 +2,7 @@
 title: "AIRoA MoMa Dataset: A Large-Scale Hierarchical Dataset for Mobile Manipulation"
 collection: publications
 category: manuscripts
-permalink: /publication/takanamiarXiv25
+permalink: /publication/TakanamiarXiv25
 excerpt: 'We present the AIRoA MoMa Dataset, a large-scale hierarchical dataset designed to advance research in mobile manipulation within indoor environments.'
 thumbnail: 'takanamiarXiv25.png'
 authors: 'R. Takanami, P. Khrapchenkov, S. Morikuni, J. Arima, Y. Takaba, S. Maeda, T. Okubo, G. Sano, S. Sekioka, A. Kadoya, M. Kambara, N. Nishiura, H. Suzuki, T. Yoshimoto, K. Sakamoto, S. Ono, H. Yang, D. Yashima, A. Horo, T. Motoda, K. Chiyoma, H. Ito, K. Fukuda, A. Goto, K. Morinaga, Y. Ikeda, R. Kawada, M. Yoshikawa, N. Kosuge, Y. Noguchi, K. Ota, T. Matsushima, Y. Iwasawa, Y. Matsuo, and T. Ogata'
