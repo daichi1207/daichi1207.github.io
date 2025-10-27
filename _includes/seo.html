@@ -6,8 +6,27 @@
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
+{% assign seo_title = nil %}
+{% assign page_title_clean = nil %}
 {% if page.title %}
-  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
+  {% assign page_title_clean = page.title | markdownify | strip_html | strip_newlines | escape_once %}
+{% endif %}
+
+{% if page.seo_title %}
+  {% assign seo_title = page.seo_title %}
+{% elsif page_title_clean %}
+  {% assign is_home = false %}
+  {% if page.url == "/" or page.url == site.baseurl %}
+    {% assign is_home = true %}
+  {% endif %}
+  {% if page.permalink == "/" %}
+    {% assign is_home = true %}
+  {% endif %}
+  {% if is_home or page_title_clean == site.title %}
+    {% assign seo_title = site.title %}
+  {% else %}
+    {% assign seo_title = page_title_clean | append: " " | append: site.title_separator | append: " " | append: site.title %}
+  {% endif %}
 {% endif %}
 
 {% if seo_title %}
