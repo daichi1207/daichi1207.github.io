@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "👋 Hi, I'm Daichi Yashima"
+seo_title: "Daichi Yashima"
 author_profile: true
 redirect_from: 
   - /about/
