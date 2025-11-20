@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Daichi Yashima"
 title_separator          : "-"
 name                     : &name "Daichi Yashima"
-description              : # &description ""
+description              : "Daichi Yashima is a master's student at Keio University researching robotics, foundation models, multimodal understanding, and embodied AI."
 url                      : https://daichi1207.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "daichi1207/daichi1207.github.io"
@@ -68,7 +68,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # naizekizero
+  twitter          : "naisekizero"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -132,18 +132,22 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "naisekizero"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "self.jpeg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Daichi Yashima"
+  links:
+    - https://scholar.google.com/citations?user=dB2alekAAAAJ&hl=en
+    - https://github.com/daichi1207
+    - https://twitter.com/naisekizero
+    - https://orcid.org/0009-0005-2087-2038
 
 
 # Analytics

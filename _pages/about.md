@@ -2,13 +2,15 @@
 permalink: /
 title: "Daichi Yashima"
 seo_title: "Daichi Yashima"
+description: "Daichi Yashima is a master's student at Keio University working on robotics, foundation models, multimodal language understanding, and embodied AI."
+excerpt: "Daichi Yashima is a robotics researcher at Keio University focused on foundation models, multimodal language understanding, and embodied AI."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a master's student at Keio University, where I am advised by Prof. [Komei Sugiura](https://komeisugiura.jp/index_en.html).
+Hi, I'm **Daichi Yashima**, a master's student at Keio University advised by Prof. [Komei Sugiura](https://komeisugiura.jp/index_en.html). I work on robotics, large-scale foundation models, multimodal language understanding, and embodied AI systems that can execute complex tasks in the physical world.
 
 ## 📝 Research Interests
 
