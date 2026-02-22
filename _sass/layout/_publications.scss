@@ -3,12 +3,17 @@
    ========================================================================== */
 
 .publication-item {
-  margin-bottom: 2em;
-  padding: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 1em;
   border: 1px solid var(--global-border-color);
   border-radius: 8px;
   background: var(--global-background-color);
   transition: box-shadow 0.3s ease;
+
+  @include breakpoint($medium) {
+    padding: 1.5em;
+    margin-bottom: 2em;
+  }
 
   &:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -17,30 +22,26 @@
 
 .publication-layout {
   display: flex;
-  gap: 1.5em;
+  flex-direction: column;
+  gap: 1em;
   align-items: flex-start;
-
-  @include breakpoint($small) {
-    flex-direction: column;
-  }
 
   @include breakpoint($medium) {
     flex-direction: row;
+    gap: 1.5em;
   }
 }
 
 .publication-thumbnail {
   flex-shrink: 0;
-  width: 200px;
-
-  @include breakpoint($small) {
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
-  }
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
 
   @include breakpoint($medium) {
     width: 200px;
+    max-width: none;
+    margin: 0;
   }
 }
 
@@ -55,18 +56,24 @@
 .publication-content {
   flex: 1;
   min-width: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .publication-title {
   margin: 0 0 0.5em 0;
-  font-size: $type-size-4;
+  font-size: $type-size-5;
   font-family: $sans-serif-narrow;
   line-height: 1.3;
+
+  @include breakpoint($medium) {
+    font-size: $type-size-4;
+  }
 
   a {
     color: var(--global-text-color);
     text-decoration: none;
-    
+
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
@@ -85,7 +92,7 @@
   margin: 0 0 1em 0;
   font-size: $type-size-6;
   color: var(--global-text-color-light);
-  
+
   em {
     font-style: italic;
     color: var(--global-theme-color);
@@ -122,19 +129,4 @@
   font-size: $type-size-6;
   color: var(--global-text-color-light);
   line-height: 1.5;
-}
-
-/* Responsive adjustments */
-@include breakpoint($small) {
-  .publication-item {
-    padding: 1em;
-  }
-  
-  .publication-layout {
-    gap: 1em;
-  }
-  
-  .publication-title {
-    font-size: $type-size-5;
-  }
 } 

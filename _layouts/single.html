@@ -44,6 +44,18 @@ layout: default
         </header>
       {% endunless %}
 
+      {% if page.thumbnail and page.collection == 'publications' %}
+        <div class="page__thumbnail">
+          <img src=
+            {% if page.thumbnail contains "://" %}
+              "{{ page.thumbnail }}"
+            {% else %}
+              "{{ page.thumbnail | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            alt="{{ page.title | strip_html }}" />
+        </div>
+      {% endif %}
+
       <section class="page__content" itemprop="text">
         {{ content }}
 
