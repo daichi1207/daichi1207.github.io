@@ -60,25 +60,25 @@ layout: default
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+          <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
         {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.paperurl and page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+          <p style="font-size: smaller">Citation: {{ page.citation }}</p>
         {% elsif page.slidesurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.bibtexurl %}
@@ -95,9 +95,10 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
-      {% include post_pagination.html %}
+      {% unless page.collection == 'publications' %}
+        {% if page.share %}{% include social-share.html %}{% endif %}
+        {% include post_pagination.html %}
+      {% endunless %}
     </div>
 
     {% if site.comments.provider and page.comments %}

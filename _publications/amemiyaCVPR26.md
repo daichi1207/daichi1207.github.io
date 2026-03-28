@@ -8,8 +8,8 @@ thumbnail: 'amemiyaCVPR26.png'
 authors: 'K. Amemiya, D. Yashima, K. Katsumata, T. Komatsu, R. Korekata, S. Otsuki, and K. Sugiura'
 date: 2026-02-01
 venue: 'CVPR 2026 Findings'
-# paperurl: ''
-# codeurl: ''
+paperurl: 'https://arxiv.org/abs/2603.05446'
+codeurl: 'https://huggingface.co/datasets/kanonnon/NAIL-STAR'
 # blogposturl: ''
 citation: 'K. Amemiya, D. Yashima, K. Katsumata, T. Komatsu, R. Korekata, S. Otsuki, and K. Sugiura, "NaiLIA: Multimodal Nail Design Retrieval Based on Dense Intent Descriptions and Palette Queries", CVPR Findings, 2026.'
 ---

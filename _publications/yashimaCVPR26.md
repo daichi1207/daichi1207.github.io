@@ -3,6 +3,7 @@ title: "ReMoRa: Multimodal Large Language Model based on Refined Motion Represen
 collection: publications
 category: manuscripts
 permalink: /publication/yashimaCVPR26
+selected: true
 excerpt: 'We propose ReMoRa, a video MLLM that processes videos by operating directly on their compressed representations, using sparse RGB keyframes for appearance and a refined motion representation for temporal dynamics.'
 thumbnail: 'yashimaCVPR26.png'
 authors: 'D. Yashima, S. Kurita, Y. Oda, and K. Sugiura'

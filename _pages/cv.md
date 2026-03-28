@@ -20,9 +20,6 @@ redirect_from:
     </iframe>
   </div>
   
-  <div class="cv-footer">
-    <p><a href="{{ base_path }}/files/cv.pdf" target="_blank" class="btn btn--primary">Download PDF</a></p>
-  </div>
 </div>
 
 <style>
@@ -51,11 +48,6 @@ redirect_from:
 .cv-embed iframe {
   border: none;
   display: block;
-}
-
-.cv-footer {
-  text-align: center;
-  margin-top: 1em;
 }
 
 /* Responsive design */

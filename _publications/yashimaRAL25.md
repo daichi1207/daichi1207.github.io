@@ -3,6 +3,7 @@ title: "Open-Vocabulary Mobile Manipulation Based on Double Relaxed Contrastive 
 collection: publications
 category: manuscripts
 permalink: /publication/yashimaRAL25
+selected: true
 excerpt: 'In this study we propose RelaX-Former, a method that leverages unlabeled positive labels and introduces a double relaxed contrastive learning approach to handle unlabeled positive and negative samples, improving the alignment between images and text.'
 thumbnail: 'yashimaRAL25.png'
 authors: 'D. Yashima, R. Korekata, and K. Sugiura'

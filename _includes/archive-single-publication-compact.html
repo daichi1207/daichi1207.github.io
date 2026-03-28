@@ -1,0 +1,62 @@
+{% include base_path %}
+
+{% if post.thumbnail %}
+  {% capture thumbnail %}{{ post.thumbnail }}{% endcapture %}
+{% else %}
+  {% assign thumbnail = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="publication-compact">
+  <div class="publication-compact__layout">
+    {% if thumbnail %}
+      <div class="publication-compact__thumbnail">
+        <img src=
+          {% if thumbnail contains "://" %}
+            "{{ thumbnail }}"
+          {% else %}
+            "{{ thumbnail | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="{{ title }}" class="publication-compact__image">
+      </div>
+    {% endif %}
+    <div class="publication-compact__content">
+      <p class="publication-compact__title">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      </p>
+      {% if post.authors %}
+        <p class="publication-compact__authors">{{ post.authors }}</p>
+      {% endif %}
+      {% if post.venue %}
+        <p class="publication-compact__venue">
+          <em>{{ post.venue }}</em>
+          {% if post.date %} • {{ post.date | date: "%Y" }}{% endif %}
+        </p>
+      {% endif %}
+      {% if post.paperurl or post.codeurl or post.blogposturl or post.slidesurl or post.bibtexurl %}
+        <div class="publication-compact__links">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" class="publication-compact__link">Paper</a>
+          {% endif %}
+          {% if post.codeurl %}
+            <a href="{{ post.codeurl }}" class="publication-compact__link">Code</a>
+          {% endif %}
+          {% if post.blogposturl %}
+            <a href="{{ post.blogposturl }}" class="publication-compact__link">Blogpost</a>
+          {% endif %}
+          {% if post.slidesurl %}
+            <a href="{{ post.slidesurl }}" class="publication-compact__link">Slides</a>
+          {% endif %}
+          {% if post.bibtexurl %}
+            <a href="{{ post.bibtexurl }}" class="publication-compact__link">Bibtex</a>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
