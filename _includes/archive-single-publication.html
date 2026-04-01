@@ -48,6 +48,9 @@
             {% if post.date %}
               {% if post.venue %} • {% endif %}{{ post.date | default: "1900-01-01" | date: "%Y" }}
             {% endif %}
+            {% if post.venue_info %}
+              <span class="publication-venue-info">({{ post.venue_info }})</span>
+            {% endif %}
           </p>
         {% endif %}
 
@@ -72,9 +75,6 @@
           </div>
         {% endif %}
 
-        {% if post.excerpt %}
-          <p class="publication-excerpt">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-        {% endif %}
       </div>
     </div>
   </article>

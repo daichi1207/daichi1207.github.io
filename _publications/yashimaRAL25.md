@@ -6,9 +6,10 @@ permalink: /publication/yashimaRAL25
 selected: true
 excerpt: 'In this study we propose RelaX-Former, a method that leverages unlabeled positive labels and introduces a double relaxed contrastive learning approach to handle unlabeled positive and negative samples, improving the alignment between images and text.'
 thumbnail: 'yashimaRAL25.png'
-authors: 'D. Yashima, R. Korekata, and K. Sugiura'
+authors: '<b><u>D. Yashima</u></b>, R. Korekata, and K. Sugiura'
 date: 2025-06-03
 venue: 'IEEE RA-L'
+venue_info: 'IF: 5.2, h5-index: 132'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10816380'
 codeurl: 'https://github.com/keio-smilab24/RelaX-Former'
 # blogposturl: ''

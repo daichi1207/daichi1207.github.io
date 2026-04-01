@@ -6,9 +6,10 @@ permalink: /publication/yashimaCVPR26
 selected: true
 excerpt: 'We propose ReMoRa, a video MLLM that processes videos by operating directly on their compressed representations, using sparse RGB keyframes for appearance and a refined motion representation for temporal dynamics.'
 thumbnail: 'yashimaCVPR26.png'
-authors: 'D. Yashima, S. Kurita, Y. Oda, and K. Sugiura'
+authors: '<b><u>D. Yashima</u></b>, S. Kurita, Y. Oda, and K. Sugiura'
 date: 2026-02-01
 venue: 'CVPR 2026'
+venue_info: 'Acceptance Rate: 25.42%, h5-index: 450'
 paperurl: 'https://arxiv.org/abs/2602.16412'
 # codeurl: ''
 # blogposturl: ''

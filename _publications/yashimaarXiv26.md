@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/yashimaarXiv26
 excerpt: 'We propose HiFlow, a tokenization-free coarse-to-fine autoregressive policy that operates directly on raw continuous actions via flow matching, eliminating the need for discrete action tokenizers.'
 thumbnail: 'yashimaarxiv26.png'
-authors: 'D. Yashima, K. Seno, S. Kurita, Y. Oda, and K. Sugiura'
+authors: '<b><u>D. Yashima</u></b>, K. Seno, S. Kurita, Y. Oda, and K. Sugiura'
 date: 2026-03-28
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2603.27281'

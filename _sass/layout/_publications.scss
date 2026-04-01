@@ -5,7 +5,7 @@
 .publication-item {
   margin-bottom: 1.5em;
   padding: 1em;
-  border: 1px solid var(--global-border-color);
+  border: 1px solid #bbb;
   border-radius: 8px;
   background: var(--global-background-color);
   transition: box-shadow 0.3s ease;
@@ -84,14 +84,14 @@
 .publication-authors {
   margin: 0 0 0.5em 0;
   font-size: $type-size-6;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
   font-weight: 500;
 }
 
 .publication-venue {
-  margin: 0 0 1em 0;
+  margin: 0 0 0.5em 0;
   font-size: $type-size-6;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
 
   em {
     font-style: italic;
@@ -99,11 +99,16 @@
   }
 }
 
+.publication-venue-info {
+  font-size: 1em;
+  color: var(--global-text-color);
+}
+
 .publication-links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5em;
-  margin-bottom: 1em;
+  margin-bottom: 0;
 }
 
 .publication-link {
@@ -188,13 +193,13 @@
   p.publication-compact__authors {
     margin: 0 0 2px 0 !important;
     font-size: 12px !important;
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
   }
 
   p.publication-compact__venue {
     margin: 0 0 4px 0 !important;
     font-size: 12px !important;
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
 
     em {
       font-style: italic;

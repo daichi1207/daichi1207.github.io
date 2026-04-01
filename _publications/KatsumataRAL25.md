@@ -5,9 +5,10 @@ category: manuscripts
 permalink: /publication/katsumataRAL25
 excerpt: 'In this study we propose a novel training method that leverages both learning-based and n-gram based automatic evaluation metrics as rewards to generate free-form mobile manipulation instructions.'
 thumbnail: 'katsumataRAL25.png'
-authors: 'K. Katsumata, M. Kambara, D. Yashima, R. Korekata, and K. Sugiura'
+authors: 'K. Katsumata, M. Kambara, <b><u>D. Yashima</u></b>, R. Korekata, and K. Sugiura'
 date: 2025-05-01
 venue: 'IEEE RA-L'
+venue_info: 'IF: 5.2, h5-index: 132'
 paperurl: 'https://ieeexplore.ieee.org/document/10873846'
 codeurl: 'https://github.com/keio-smilab24/MMIG'
 # blogposturl: ''

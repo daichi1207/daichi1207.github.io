@@ -5,9 +5,10 @@ category: manuscripts
 permalink: /publication/amemiyaCVPR26
 excerpt: 'We propose NaiLIA, a multimodal retrieval method for nail design images that comprehensively aligns with dense intent descriptions and palette queries.'
 thumbnail: 'amemiyaCVPR26.png'
-authors: 'K. Amemiya, D. Yashima, K. Katsumata, T. Komatsu, R. Korekata, S. Otsuki, and K. Sugiura'
+authors: 'K. Amemiya, <b><u>D. Yashima</u></b>, K. Katsumata, T. Komatsu, R. Korekata, S. Otsuki, and K. Sugiura'
 date: 2026-02-01
 venue: 'CVPR 2026 Findings'
+venue_info: 'Acceptance Rate (main + findings): 36%, h5-index: 450'
 paperurl: 'https://arxiv.org/abs/2603.05446'
 codeurl: 'https://huggingface.co/datasets/kanonnon/NAIL-STAR'
 # blogposturl: ''

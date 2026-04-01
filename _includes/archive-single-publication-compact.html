@@ -36,6 +36,9 @@
         <p class="publication-compact__venue">
           <em>{{ post.venue }}</em>
           {% if post.date %} • {{ post.date | date: "%Y" }}{% endif %}
+          {% if post.venue_info %}
+            <span class="publication-venue-info">({{ post.venue_info }})</span>
+          {% endif %}
         </p>
       {% endif %}
       {% if post.paperurl or post.codeurl or post.blogposturl or post.slidesurl or post.bibtexurl %}
