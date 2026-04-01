@@ -26,8 +26,6 @@ Hi, I'm **Daichi Yashima**, a Ph.D. student at Keio University advised by Prof. 
 
 • [2026/02] Our papers have been accepted to [CVPR 2026](/publication/yashimaCVPR26) and [CVPR 2026 Findings](/publication/amemiyaCVPR26)
 
-• [2025/09] Our paper is available on [arXiv](/publication/TakanamiarXiv25)
-
 • [2025/03] Our paper has been accepted to [IEEE RA-L](/publication/KatsumataRAL25)
 
 • [2025/02] Our paper has been accepted to [IEEE RA-L](/publication/yashimaRAL25)
