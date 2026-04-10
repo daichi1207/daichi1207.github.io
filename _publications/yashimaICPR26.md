@@ -9,7 +9,7 @@ authors: '<b><u>D. Yashima</u></b>, S. Kurita, Y. Oda, S. Suzuki, S. Otsuki, and
 date: 2026-03-31
 venue: 'ICPR 2026'
 venue_info: 'h5-index: 68'
-# paperurl: ''
+paperurl: 'https://arxiv.org/abs/2604.08050'
 # codeurl: ''
 # blogposturl: ''
 citation: 'D. Yashima, S. Kurita, Y. Oda, S. Suzuki, S. Otsuki, and K. Sugiura, "ABMAMBA: Multimodal Large Language Model with Aligned Hierarchical Bidirectional Scan for Efficient Video Captioning", ICPR, 2026.'
