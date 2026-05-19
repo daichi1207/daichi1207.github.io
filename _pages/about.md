@@ -22,6 +22,8 @@ Hi, I'm **Daichi Yashima**, a Ph.D. student at Keio University advised by Prof. 
 
 ## 📰 News
 
+• [2026/04] I started my Ph.D. (early graduation from Master's program by 1 year)
+
 • [2026/03] Our paper has been accepted to [ICPR 2026](/publication/yashimaICPR26)
 
 • [2026/02] Our papers have been accepted to [CVPR 2026](/publication/yashimaCVPR26) and [CVPR 2026 Findings](/publication/amemiyaCVPR26)
