@@ -2,35 +2,25 @@
 permalink: /
 title: "Daichi Yashima"
 seo_title: "Daichi Yashima"
-description: "Daichi Yashima is a Ph.D. student at Keio University working on robotics, foundation models, multimodal language understanding, and embodied AI."
-excerpt: "Daichi Yashima is a robotics researcher at Keio University focused on foundation models, multimodal language understanding, and embodied AI."
+description: "Daichi Yashima is a Ph.D. student at Keio University working on foundation models and multimodal language understanding for embodied AI."
+excerpt: "Daichi Yashima is a Ph.D. student at Keio University working on foundation models and multimodal language understanding for embodied AI."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-Hi, I'm **Daichi Yashima**, a Ph.D. student at Keio University advised by Prof. [Komei Sugiura](https://komeisugiura.jp/index_en.html). I work on robotics, large-scale foundation models, multimodal language understanding, and embodied AI systems that can execute complex tasks in the physical world.
-
-## 📝 Research Interests
-
-• **Foundation Models**: Vision-Language Models, Vision-Language-Action Models
-
-• **Multimodal Language Understanding**: Video Understanding, Self-supervised Learning
-
-• **Embodied AI**: Service Robots, Mobile Manipulation
+Hi, I'm **Daichi Yashima**, a Ph.D. student at Keio University advised by Prof. [Komei Sugiura](https://komeisugiura.jp/index_en.html). I work on foundation models and multimodal language understanding for embodied AI systems that can execute complex tasks in the physical world.
 
 ## 📰 News
+{: .news-heading}
 
-• [2026/04] I started my Ph.D. (early graduation from Master's program by 1 year)
-
-• [2026/03] Our paper has been accepted to [ICPR 2026](/publication/yashimaICPR26)
-
-• [2026/02] Our papers have been accepted to [CVPR 2026](/publication/yashimaCVPR26) and [CVPR 2026 Findings](/publication/amemiyaCVPR26)
-
-• [2025/03] Our paper has been accepted to [IEEE RA-L](/publication/KatsumataRAL25)
-
-• [2025/02] Our paper has been accepted to [IEEE RA-L](/publication/yashimaRAL25)
+- \[2026/04\] I started my Ph.D. (early graduation from Master's program by 1 year)
+- \[2026/03\] Our paper has been accepted to [ICPR 2026](/publication/yashimaICPR26)
+- \[2026/02\] Our papers have been accepted to [CVPR 2026](/publication/yashimaCVPR26) and [CVPR 2026 Findings](/publication/amemiyaCVPR26)
+- \[2025/03\] Our paper has been accepted to [IEEE RA-L](/publication/KatsumataRAL25)
+- \[2025/02\] Our paper has been accepted to [IEEE RA-L](/publication/yashimaRAL25)
+{: .news-list}
 
 ## 📄 Selected Publications
 

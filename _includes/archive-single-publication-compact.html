@@ -42,23 +42,23 @@
         </p>
       {% endif %}
       {% if post.paperurl or post.codeurl or post.blogposturl or post.slidesurl or post.bibtexurl %}
-        <div class="publication-compact__links">
+        <p class="publication-compact__links">
           {% if post.paperurl %}
-            <a href="{{ post.paperurl }}" class="publication-compact__link">Paper</a>
+            <a href="{{ post.paperurl }}" class="publication-compact__link">[Paper]</a>
           {% endif %}
           {% if post.codeurl %}
-            <a href="{{ post.codeurl }}" class="publication-compact__link">Code</a>
+            <a href="{{ post.codeurl }}" class="publication-compact__link">[Code]</a>
           {% endif %}
           {% if post.blogposturl %}
-            <a href="{{ post.blogposturl }}" class="publication-compact__link">Blogpost</a>
+            <a href="{{ post.blogposturl }}" class="publication-compact__link">[Blogpost]</a>
           {% endif %}
           {% if post.slidesurl %}
-            <a href="{{ post.slidesurl }}" class="publication-compact__link">Slides</a>
+            <a href="{{ post.slidesurl }}" class="publication-compact__link">[Slides]</a>
           {% endif %}
           {% if post.bibtexurl %}
-            <a href="{{ post.bibtexurl }}" class="publication-compact__link">Bibtex</a>
+            <a href="{{ post.bibtexurl }}" class="publication-compact__link">[Bibtex]</a>
           {% endif %}
-        </div>
+        </p>
       {% endif %}
     </div>
   </div>

@@ -56,23 +56,23 @@
 
         <!-- Links Section -->
         {% if post.paperurl or post.codeurl or post.blogposturl or post.slidesurl or post.bibtexurl %}
-          <div class="publication-links">
+          <p class="publication-links">
             {% if post.paperurl %}
-              <a href="{{ post.paperurl }}" class="publication-link">Paper</a>
+              <a href="{{ post.paperurl }}" class="publication-link">[Paper]</a>
             {% endif %}
             {% if post.codeurl %}
-              <a href="{{ post.codeurl }}" class="publication-link">Code</a>
+              <a href="{{ post.codeurl }}" class="publication-link">[Code]</a>
             {% endif %}
             {% if post.blogposturl %}
-              <a href="{{ post.blogposturl }}" class="publication-link">Blogpost</a>
+              <a href="{{ post.blogposturl }}" class="publication-link">[Blogpost]</a>
             {% endif %}
             {% if post.slidesurl %}
-              <a href="{{ post.slidesurl }}" class="publication-link">Slides</a>
+              <a href="{{ post.slidesurl }}" class="publication-link">[Slides]</a>
             {% endif %}
             {% if post.bibtexurl %}
-              <a href="{{ post.bibtexurl }}" class="publication-link">Bibtex</a>
+              <a href="{{ post.bibtexurl }}" class="publication-link">[Bibtex]</a>
             {% endif %}
-          </div>
+          </p>
         {% endif %}
 
       </div>

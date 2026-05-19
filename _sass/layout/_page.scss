@@ -422,3 +422,21 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* News list (tight spacing) */
+.news-list {
+  list-style: disc;
+  padding-left: 1.25em;
+  margin: 0.5em 0 1em 0;
+
+  li {
+    margin: 0 0 3px 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 15px;
+  }
+
+  li > p {
+    margin: 0;
+  }
+}
