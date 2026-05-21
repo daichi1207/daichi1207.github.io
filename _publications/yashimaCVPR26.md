@@ -11,7 +11,8 @@ date: 2026-02-01
 venue: 'CVPR 2026'
 venue_info: 'Acceptance Rate: 25.42%, h5-index: 450'
 paperurl: 'https://arxiv.org/abs/2602.16412'
-# codeurl: ''
+projecturl: 'https://remora-v1rcm.kinsta.page/'
+codeurl: 'https://github.com/keio-smilab26/ReMoRa'
 # blogposturl: ''
 citation: 'D. Yashima, S. Kurita, Y. Oda, and K. Sugiura, "ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding", CVPR, 2026.'
 ---

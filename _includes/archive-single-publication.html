@@ -55,13 +55,19 @@
         {% endif %}
 
         <!-- Links Section -->
-        {% if post.paperurl or post.codeurl or post.blogposturl or post.slidesurl or post.bibtexurl %}
+        {% if post.paperurl or post.projecturl or post.codeurl or post.dataseturl or post.blogposturl or post.slidesurl or post.bibtexurl %}
           <p class="publication-links">
             {% if post.paperurl %}
               <a href="{{ post.paperurl }}" class="publication-link">[Paper]</a>
             {% endif %}
+            {% if post.projecturl %}
+              <a href="{{ post.projecturl }}" class="publication-link">[Project]</a>
+            {% endif %}
             {% if post.codeurl %}
               <a href="{{ post.codeurl }}" class="publication-link">[Code]</a>
+            {% endif %}
+            {% if post.dataseturl %}
+              <a href="{{ post.dataseturl }}" class="publication-link">[Dataset]</a>
             {% endif %}
             {% if post.blogposturl %}
               <a href="{{ post.blogposturl }}" class="publication-link">[Blogpost]</a>
