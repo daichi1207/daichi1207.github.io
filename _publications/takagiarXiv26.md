@@ -7,7 +7,7 @@ excerpt: 'We propose AnoleVLA, a lightweight VLA that uses a deep state space mo
 thumbnail: 'takagiarxiv26.png'
 authors: 'Y. Takagi, M. Kambara, <b><u>D. Yashima</u></b>, K. Seno, K. Tokura, and K. Sugiura'
 date: 2026-03-16
-venue: 'arXiv'
+venue: 'Preprint'
 paperurl: 'https://arxiv.org/abs/2603.15046'
 # codeurl: ''
 # blogposturl: ''

@@ -7,7 +7,7 @@ excerpt: 'We investigate whether MLLMs used as automatic judges exhibit bias tow
 thumbnail: 'koyamaarxiv26.png'
 authors: 'S. Koyama, Y. Wada, <b><u>D. Yashima</u></b>, and K. Sugiura'
 date: 2026-04-13
-venue: 'arXiv'
+venue: 'Preprint'
 paperurl: 'https://arxiv.org/abs/2604.11589'
 # codeurl: ''
 # blogposturl: ''

@@ -7,7 +7,7 @@ excerpt: 'We propose HiFlow, a tokenization-free coarse-to-fine autoregressive p
 thumbnail: 'yashimaarxiv26.png'
 authors: '<b><u>D. Yashima</u></b>, K. Seno, S. Kurita, Y. Oda, and K. Sugiura'
 date: 2026-03-28
-venue: 'arXiv'
+venue: 'Preprint'
 paperurl: 'https://arxiv.org/abs/2603.27281'
 # codeurl: ''
 # blogposturl: ''
