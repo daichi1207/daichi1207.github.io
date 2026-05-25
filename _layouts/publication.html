@@ -1,0 +1,40 @@
+---
+layout: minimal
+---
+
+{% include base_path %}
+
+{% if page.title %}
+  {% assign pub_title = page.title | markdownify | remove: "<p>" | remove: "</p>" %}
+<h1>{{ pub_title }}</h1>
+{% endif %}
+
+{% if page.thumbnail %}
+<div class="pub-hero">
+  <img src="{% if page.thumbnail contains '://' %}{{ page.thumbnail }}{% else %}{{ page.thumbnail | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="{{ pub_title | strip_html }}">
+</div>
+{% endif %}
+
+{% if page.authors %}<p class="pub-authors">{{ page.authors }}</p>{% endif %}
+{% if page.venue %}
+<p class="pub-venue"><em>{{ page.venue }}</em>{% if page.date %}, {{ page.date | date: "%Y" }}{% endif %}{% if page.venue_info %} ({{ page.venue_info }}){% endif %}</p>
+{% endif %}
+
+{% if page.paperurl or page.projecturl or page.codeurl or page.dataseturl or page.blogposturl or page.slidesurl or page.bibtexurl %}
+<p class="pub-links">
+  {% if page.paperurl %}<a href="{{ page.paperurl }}">[paper]</a>{% endif %}
+  {% if page.projecturl %}<a href="{{ page.projecturl }}">[project]</a>{% endif %}
+  {% if page.codeurl %}<a href="{{ page.codeurl }}">[code]</a>{% endif %}
+  {% if page.dataseturl %}<a href="{{ page.dataseturl }}">[dataset]</a>{% endif %}
+  {% if page.blogposturl %}<a href="{{ page.blogposturl }}">[blog]</a>{% endif %}
+  {% if page.slidesurl %}<a href="{{ page.slidesurl }}">[slides]</a>{% endif %}
+  {% if page.bibtexurl %}<a href="{{ page.bibtexurl }}">[bibtex]</a>{% endif %}
+</p>
+{% endif %}
+
+{{ content }}
+
+{% if page.citation %}
+<h2>Citation</h2>
+<p style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em; background: #f6f6f6; padding: 0.8em; border-radius: 4px;">{{ page.citation }}</p>
+{% endif %}

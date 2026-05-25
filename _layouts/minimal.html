@@ -1,0 +1,95 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title and page.url != "/" %}{{ page.title | strip_html }} &middot; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
+    {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
+    <meta property="og:title" content="{% if page.title and page.url != '/' %}{{ page.title | strip_html }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:type" content="{% if page.url == '/' %}profile{% else %}article{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    {% if site.og_image %}<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/{{ site.og_image }}">{% endif %}
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
+    <style>
+      html { -webkit-text-size-adjust: 100%; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.55;
+        color: #111;
+        background: #fff;
+        max-width: 720px;
+        margin: 2.5em auto;
+        padding: 0 1.25em;
+      }
+      a { color: #0645ad; text-decoration: underline; }
+      a:visited { color: #0b0080; }
+      a:hover { color: #06e; }
+      h1 { font-size: 1.6em; margin: 0 0 0.2em; font-weight: 600; }
+      h2 { font-size: 1.15em; margin: 1.8em 0 0.5em; font-weight: 600; border-bottom: 1px solid #ddd; padding-bottom: 0.2em; }
+      h3 { font-size: 1.0em; margin: 1.4em 0 0.4em; font-weight: 600; }
+      p { margin: 0.7em 0; }
+      ul { padding-left: 1.2em; margin: 0.5em 0; }
+      li { margin: 0.25em 0; }
+      hr { border: 0; border-top: 1px solid #ddd; margin: 1.5em 0; }
+      img.avatar {
+        float: right;
+        width: 140px;
+        height: auto;
+        margin: 0 0 1em 1.5em;
+        border: 1px solid #ccc;
+      }
+      .header-links { margin: 0.4em 0 1em; color: #555; font-size: 0.95em; }
+      .header-links a { margin-right: 0.4em; }
+      .affil { color: #444; }
+      .news ul { list-style: none; padding-left: 0; }
+      .news li { padding: 0.15em 0; }
+      .news .date { display: inline-block; min-width: 5.5em; color: #555; font-variant-numeric: tabular-nums; }
+      .pub { display: flex; gap: 1em; margin: 0.9em 0 1.2em; align-items: flex-start; }
+      .pub-thumb { flex: 0 0 120px; }
+      .pub-thumb img { width: 120px; height: auto; display: block; border: 1px solid #ddd; background: #fafafa; }
+      .pub-body { flex: 1 1 auto; min-width: 0; }
+      .pub-title { font-weight: 600; }
+      .pub-authors, .pub-venue { color: #333; }
+      .pub-venue em { color: #555; }
+      .pub-links { margin-top: 0.2em; }
+      .pub-links a { margin-right: 0.4em; }
+      .pub-hero { margin: 0.6em 0 1em; }
+      .pub-hero img { max-width: 100%; height: auto; border: 1px solid #ddd; }
+      @media (max-width: 520px) {
+        .pub { flex-direction: column; gap: 0.5em; }
+        .pub-thumb { flex-basis: auto; }
+        .pub-thumb img { width: 100%; max-width: 280px; }
+      }
+      .year-heading { font-size: 1.0em; margin: 1.4em 0 0.3em; font-weight: 600; color: #555; }
+      .topbar { font-size: 0.9em; color: #777; margin-bottom: 1.8em; }
+      .topbar a { color: #555; }
+      footer.site { margin-top: 3em; padding-top: 1em; border-top: 1px solid #ddd; color: #777; font-size: 0.9em; }
+      @media (max-width: 520px) {
+        img.avatar { float: none; display: block; margin: 0 0 1em; width: 120px; }
+      }
+    </style>
+  </head>
+  <body>
+    {% if page.url != "/" %}
+      <div class="topbar"><a href="{{ base_path }}/">&larr; {{ site.author.name }}</a></div>
+    {% endif %}
+
+    {{ content }}
+
+    <footer class="site">
+      {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub</a> &middot;{% endif %}
+      {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a> &middot;{% endif %}
+      {% if site.author.orcid %}<a href="{{ site.author.orcid }}">ORCID</a> &middot;{% endif %}
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+    </footer>
+  </body>
+</html>

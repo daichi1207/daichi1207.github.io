@@ -1,0 +1,20 @@
+---
+layout: minimal
+---
+
+{% include base_path %}
+
+<img class="avatar" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+
+<h1>{{ site.author.name }}</h1>
+<p class="affil">
+  Ph.D. Student, {{ site.author.employer }}<br>
+  JSPS Research Fellow (DC1)
+</p>
+<p class="header-links">
+  <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> &middot;
+  {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Google Scholar</a> &middot;{% endif %}
+  <a href="{{ base_path }}/files/cv.pdf">CV (PDF)</a>
+</p>
+
+{{ content }}

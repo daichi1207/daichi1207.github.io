@@ -1,66 +1,86 @@
 ---
 permalink: /
+layout: home
 title: "Daichi Yashima"
 seo_title: "Daichi Yashima"
-description: "Daichi Yashima is a Ph.D. student at Keio University working on foundation models and multimodal language understanding for embodied AI."
-excerpt: "Daichi Yashima is a Ph.D. student at Keio University working on foundation models and multimodal language understanding for embodied AI."
-author_profile: true
+description: "Daichi Yashima is a Ph.D. student at Keio University and JSPS Research Fellow (DC1) working on foundation models and multimodal language understanding for embodied AI."
+excerpt: "Daichi Yashima is a Ph.D. student at Keio University and JSPS Research Fellow (DC1) working on foundation models and multimodal language understanding for embodied AI."
+author_profile: false
+sidebar: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-Hi, I'm **Daichi Yashima**, a Ph.D. student at Keio University advised by Prof. [Komei Sugiura](https://komeisugiura.jp/index_en.html). I work on foundation models and multimodal language understanding for embodied AI systems that can execute complex tasks in the physical world.
+<p>
+I am a Ph.D. student in Computer Science at Keio University, advised by Prof. <a href="https://komeisugiura.jp/index_en.html">Komei Sugiura</a>. I am supported by the JSPS Research Fellowship for Young Scientists (DC1). I started my Ph.D. in April 2026 after completing the Master's program in one year.
+</p>
 
-## 📰 News
-{: .news-heading}
+<p>
+My research focuses on foundation models and multimodal language understanding for embodied AI: building systems that can execute complex tasks in the physical world. I work on multimodal large language models, vision-language-action models, video understanding, and mobile manipulation.
+</p>
 
-- \[2026/04\] I started my Ph.D. (early graduation from Master's program by 1 year)
-- \[2026/03\] Our paper has been accepted to [ICPR 2026](/publication/yashimaICPR26)
-- \[2026/02\] Our papers have been accepted to [CVPR 2026](/publication/yashimaCVPR26) and [CVPR 2026 Findings](/publication/amemiyaCVPR26)
-- \[2025/03\] Our paper has been accepted to [IEEE RA-L](/publication/KatsumataRAL25)
-- \[2025/02\] Our paper has been accepted to [IEEE RA-L](/publication/yashimaRAL25)
-{: .news-list}
+<h2 id="news">News</h2>
+<div class="news">
+<ul>
+  <li><span class="date">2026/04</span> Awarded JSPS Research Fellowship for Young Scientists (DC1).</li>
+  <li><span class="date">2026/04</span> Started my Ph.D. at Keio University (early graduation from Master's by 1 year).</li>
+  <li><span class="date">2026/03</span> Our paper has been accepted to ICPR 2026.</li>
+  <li><span class="date">2026/02</span> Our papers have been accepted to CVPR 2026 and CVPR 2026 Findings.</li>
+  <li><span class="date">2025/03</span> Our paper has been accepted to IEEE RA-L.</li>
+  <li><span class="date">2025/02</span> Our paper has been accepted to IEEE RA-L.</li>
+</ul>
+</div>
 
-## 📄 Selected Publications
+<h2 id="publications">Publications</h2>
 
 {% include base_path %}
-{% assign selected_pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
-{% for post in selected_pubs %}
-{% include archive-single-publication-compact.html %}
+{% assign all_pubs = site.publications | sort: "date" | reverse %}
+{% assign current_year = "" %}
+{% for post in all_pubs %}
+  {% assign year = post.date | date: "%Y" %}
+  {% if year != current_year %}
+    {% unless forloop.first %}{% endunless %}
+<h3 class="year-heading">{{ year }}</h3>
+    {% assign current_year = year %}
+  {% endif %}
+  {% if post.id %}
+    {% assign pub_title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+  {% else %}
+    {% assign pub_title = post.title %}
+  {% endif %}
+<div class="pub">
+  {% if post.thumbnail %}
+    <div class="pub-thumb">
+      <img src="{% if post.thumbnail contains '://' %}{{ post.thumbnail }}{% else %}{{ post.thumbnail | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="{{ pub_title | strip_html }}">
+    </div>
+  {% endif %}
+  <div class="pub-body">
+    <div class="pub-title">{{ pub_title }}</div>
+    {% if post.authors %}<div class="pub-authors">{{ post.authors }}</div>{% endif %}
+    {% if post.venue %}<div class="pub-venue"><em>{{ post.venue }}</em>{% if post.venue_info %} ({{ post.venue_info }}){% endif %}</div>{% endif %}
+    {% if post.paperurl or post.projecturl or post.codeurl or post.dataseturl or post.blogposturl or post.slidesurl or post.bibtexurl %}
+      <div class="pub-links">
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">[paper]</a>{% endif %}
+        {% if post.projecturl %}<a href="{{ post.projecturl }}">[project]</a>{% endif %}
+        {% if post.codeurl %}<a href="{{ post.codeurl }}">[code]</a>{% endif %}
+        {% if post.dataseturl %}<a href="{{ post.dataseturl }}">[dataset]</a>{% endif %}
+        {% if post.blogposturl %}<a href="{{ post.blogposturl }}">[blog]</a>{% endif %}
+        {% if post.slidesurl %}<a href="{{ post.slidesurl }}">[slides]</a>{% endif %}
+        {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">[bibtex]</a>{% endif %}
+      </div>
+    {% endif %}
+  </div>
+</div>
 {% endfor %}
 
-<!-- Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<h2 id="fellowships">Fellowships</h2>
+<ul>
+  <li><b>JSPS Research Fellowship for Young Scientists (DC1)</b>. JPY 220K/month. Apr. 2026 to Mar. 2029.</li>
+</ul>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right.
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<h2 id="talks">Talks</h2>
+<ul>
+  <li>Invited Talk: <i>Multimodal Large Language Models based on Deep State Space Models for Video Understanding</i>. CV Study Group #135, AIST, Tsukuba, Japan. Aug. 22, 2025.</li>
+</ul>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header.
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons.
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->

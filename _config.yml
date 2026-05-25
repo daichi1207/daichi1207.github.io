@@ -222,8 +222,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -266,10 +265,10 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+      layout: publication
+      author_profile: false
+      share: false
+      comments: false
   # _portfolio
   - scope:
       path: ""
