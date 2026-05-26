@@ -38,9 +38,10 @@ My research focuses on foundation models and multimodal language understanding f
 {% assign all_pubs = site.publications | sort: "date" | reverse %}
 {% assign current_year = "" %}
 {% for post in all_pubs %}
-  {% assign year = post.date | date: "%Y" %}
-  {% if year != current_year %}
-    {% unless forloop.first %}{% endunless %}
+{% assign year = post.date | date: "%Y" %}
+{% if year != current_year %}
+{% unless forloop.first %}{% endunless %}
+
 <h3 class="year-heading">{{ year }}</h3>
     {% assign current_year = year %}
   {% endif %}
@@ -74,6 +75,24 @@ My research focuses on foundation models and multimodal language understanding f
 </div>
 {% endfor %}
 
+<h2 id="experience">Experience</h2>
+
+<h3>Research</h3>
+<ul>
+  <li><b>SMILab, Keio University</b>. Research Assistant. Jan. 2025 to Mar. 2026.</li>
+  <li><b>AIRoA, Tokyo</b>. Intern Research Scientist. Dec. 2025 to Mar. 2026.</li>
+  <li><b>HSRTX, Tokyo University</b>. Research Assistant. Jan. 2025 to Nov. 2025.</li>
+  <li><b>LLM-jp, NII LLMC</b>. Research Assistant. Sep. 2024 to Current.</li>
+</ul>
+
+<h3>Industry</h3>
+<ul>
+  <li><b>ZenTech, Tokyo</b>. Co-Founder, Lead AI Engineer. Aug. 2024 to Current.</li>
+  <li><b>Wanderlust, Tokyo</b>. Co-Founder, Software Engineer. Dec. 2022 to Current.</li>
+  <li><b>Cryptoeconomics Lab, Tokyo</b>. Smart Contract Engineer. Apr. 2022 to Oct. 2023.</li>
+  <li><b>SHINTA VR, Jakarta</b>. Smart Contract Engineer. Mar. 2022 to Jun. 2022.</li>
+</ul>
+
 <h2 id="fellowships">Fellowships</h2>
 <ul>
   <li><b>JSPS Research Fellowship for Young Scientists (DC1)</b>. JPY 220K/month. Apr. 2026 to Mar. 2029.</li>
@@ -83,4 +102,3 @@ My research focuses on foundation models and multimodal language understanding f
 <ul>
   <li>Invited Talk: <i>Multimodal Large Language Models based on Deep State Space Models for Video Understanding</i>. CV Study Group #135, AIST, Tsukuba, Japan. Aug. 22, 2025.</li>
 </ul>
-
