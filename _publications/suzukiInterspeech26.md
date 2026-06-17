@@ -9,7 +9,7 @@ authors: 'S. Suzuki*, K. Tokura*, <b><u>D. Yashima</u></b>*, K. Amemiya*, K. Sug
 date: 2026-06-01
 venue: 'INTERSPEECH 2026'
 venue_info: 'h5-index: 112'
-# paperurl: ''
+paperurl: 'https://arxiv.org/abs/2606.17404'
 projecturl: 'https://elsa-projectpage.pages.dev/'
 codeurl: 'https://github.com/kento2247/ELSA'
 # blogposturl: ''
