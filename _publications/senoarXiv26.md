@@ -9,6 +9,7 @@ authors: 'K. Seno, <b><u>D. Yashima</u></b>, Y. Takagi, K. Tokura, and K. Sugiur
 date: 2026-06-22
 venue: 'Preprint'
 paperurl: 'https://arxiv.org/abs/2606.23090'
+projecturl: 'https://flow-as-flow-u0n5y.kinsta.page/'
 # codeurl: ''
 # blogposturl: ''
 citation: 'K. Seno, D. Yashima, Y. Takagi, K. Tokura, and K. Sugiura, "Flow as Flow: Modeling Robot Velocity Fields as Probability Velocity Fields for Flow-Based Object Manipulation", arXiv preprint arXiv:2606.23090, 2026.'
