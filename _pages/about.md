@@ -23,6 +23,7 @@ My research focuses on foundation models and multimodal language understanding f
 <h2 id="news">News</h2>
 <div class="news">
 <ul>
+  <li><span class="date">2026/06</span> Our paper "Flow as Flow" is now available on arXiv. <a href="/publication/senoarXiv26">[Preprint]</a></li>
   <li><span class="date">2026/06</span> Our paper has been accepted to IROS 2026.</li>
   <li><span class="date">2026/06</span> Our paper has been accepted to INTERSPEECH 2026.</li>
   <li><span class="date">2026/04</span> Awarded JSPS Research Fellowship for Young Scientists (DC1).</li>
