@@ -9,6 +9,7 @@ authors: 'Y. Takagi, M. Kambara, <b><u>D. Yashima</u></b>, K. Seno, K. Tokura, a
 date: 2026-03-16
 venue: 'Preprint'
 paperurl: 'https://arxiv.org/abs/2603.15046'
+projecturl: 'https://anolevla-8z7l8.kinsta.page/'
 # codeurl: ''
 # blogposturl: ''
 citation: 'Y. Takagi, M. Kambara, D. Yashima, K. Seno, K. Tokura, and K. Sugiura, "AnoleVLA: Lightweight Vision-Language-Action Model with Deep State Space Models for Mobile Manipulation", arXiv preprint arXiv:2603.15046, 2026.'

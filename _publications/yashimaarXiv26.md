@@ -10,6 +10,7 @@ date: 2026-06-17
 venue: 'IROS 2026'
 venue_info: 'Acceptance Rate: 36%, h5-index: 92'
 paperurl: 'https://arxiv.org/abs/2603.27281'
+projecturl: 'https://hiflow-6r47s.kinsta.page/'
 # codeurl: ''
 # blogposturl: ''
 citation: 'D. Yashima, K. Seno, S. Kurita, Y. Oda, and K. Sugiura, "HiFlow: Tokenization-Free Scale-Wise Autoregressive Policy Learning via Flow Matching", arXiv, 2026.'

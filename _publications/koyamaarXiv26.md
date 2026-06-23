@@ -9,6 +9,7 @@ authors: 'S. Koyama*, Y. Wada*, <b><u>D. Yashima</u></b>*, and K. Sugiura'
 date: 2026-04-13
 venue: 'Preprint'
 paperurl: 'https://arxiv.org/abs/2604.11589'
+projecturl: 'https://philautia.kinsta.page/'
 # codeurl: ''
 # blogposturl: ''
 citation: 'S. Koyama, Y. Wada, D. Yashima, and K. Sugiura, "MLLM-as-a-Judge Exhibits Model Preference Bias", arXiv, 2026. (* denotes equal contribution)'
