@@ -23,6 +23,7 @@ My research focuses on foundation models and multimodal language understanding f
 <h2 id="news">News</h2>
 <div class="news">
 <ul>
+  <li><span class="date">2026/07</span> I will be co-organizing the <a href="https://eccv2026-limit-workshop.limitlab.xyz/">LIMIT workshop</a> at ECCV 2026.</li>
   <li><span class="date">2026/06</span> New paper "Flow as Flow" is out!</li>
   <li><span class="date">2026/06</span> Our paper has been accepted to IROS 2026.</li>
   <li><span class="date">2026/06</span> Our paper has been accepted to INTERSPEECH 2026.</li>
