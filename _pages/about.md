@@ -83,7 +83,7 @@ My research focuses on foundation models and multimodal language understanding f
 
 <h3>Research</h3>
 <ul>
-  <li><b>SMILab, Keio University</b>. Research Assistant. Jan. 2025 to Mar. 2026.</li>
+  <li><b>SMILab, Keio University</b>. Research Assistant. Jan. 2025 to Current.</li>
   <li><b>AIRoA, Tokyo</b>. Intern Research Scientist. Dec. 2025 to Mar. 2026.</li>
   <li><b>HSRTX, Tokyo University</b>. Research Assistant. Jan. 2025 to Nov. 2025.</li>
   <li><b>LLM-jp, NII LLMC</b>. Research Assistant. Sep. 2024 to Current.</li>
