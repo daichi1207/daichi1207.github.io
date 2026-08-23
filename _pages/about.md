@@ -97,5 +97,6 @@ My research focuses on foundation models and multimodal language understanding f
 
 <h2 id="talks">Talks</h2>
 <ul>
+  <li>Invited Talk: <i>ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding</i>. MIRU 2026, Nagasaki, Japan. Aug. 8, 2026.</li>
   <li>Invited Talk: <i>Multimodal Large Language Models based on Deep State Space Models for Video Understanding</i>. CV Study Group #135, AIST, Tsukuba, Japan. Aug. 22, 2025.</li>
 </ul>
