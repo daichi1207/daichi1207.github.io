@@ -17,7 +17,7 @@ I am a Ph.D. student in Computer Science at Keio University, advised by Prof. <a
 </p>
 
 <p>
-My research focuses on foundation models and multimodal language understanding for embodied AI: building systems that can execute complex tasks in the physical world. I work on multimodal large language models, vision-language-action models, video understanding, and mobile manipulation.
+My research focuses on foundation models and multimodal language understanding for embodied AI: building systems that can execute complex tasks in the physical world. I work on multimodal large language models, vision-language-action models and mobile manipulation.
 </p>
 
 <h2 id="news">News</h2>
@@ -100,3 +100,43 @@ My research focuses on foundation models and multimodal language understanding f
   <li>Invited Talk: <i>ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding</i>. MIRU 2026, Nagasaki, Japan. Aug. 8, 2026.</li>
   <li>Invited Talk: <i>Multimodal Large Language Models based on Deep State Space Models for Video Understanding</i>. CV Study Group #135, AIST, Tsukuba, Japan. Aug. 22, 2025.</li>
 </ul>
+
+<h3>Paper Reading</h3>
+<ul>
+  <li><i>Mobi-pi: Mobilizing Your Robot Learning Policy</i>. <a href="https://speakerdeck.com/keio_smilab/mobi-mobilizing-your-robot-learning-policy">[slides]</a></li>
+  <li><i>MemER: Scaling Up Memory for Robot Control via Experience Retrieval</i>. <a href="https://speakerdeck.com/keio_smilab/journal-club-memer-scaling-up-memory-for-robot-control-via-experience-retrieval">[slides]</a></li>
+  <li><i>FlowAR: Scale-wise Autoregressive Image Generation Meets Flow Matching</i>. <a href="https://speakerdeck.com/keio_smilab/flowar-scale-wise-autoregressive-image-generation-meets-flow-matching">[slides]</a></li>
+  <li><i>Scalable Diffusion Models with Transformers</i>. <a href="https://speakerdeck.com/keio_smilab/journal-club-scalable-diffusion-models-with-transformers">[slides]</a></li>
+</ul>
+
+<h2 id="service">Academic Service</h2>
+
+<h3>Reviewer</h3>
+  ARR 2026 (May), ACCV 2026, CoRL 2026
+</ul>
+
+<h2 id="domestic">Domestic Conferences</h2>
+<div class="domestic">
+
+<ol>
+  <li>K. Amemiya, <b><u>D. Yashima</u></b>, K. Katsumata, and K. Sugiura, &ldquo;Nail Design Image Retrieval with Dense Intent Descriptions and Palette Queries&rdquo;, <span class="dom-venue">MIRU 2026, DS-03</span>.</li>
+  <li>K. Tokura, M. Goko, K. Amemiya, <b><u>D. Yashima</u></b>, K. Katsumata, T. Komatsu, R. Korekata, and K. Sugiura, &ldquo;Scene Text-Guided Object Retrieval and Manipulation from Free-Form Instructions&rdquo;, <span class="dom-venue">MIRU 2026, IS2-131</span>.</li>
+  <li>K. Seno, <b><u>D. Yashima</u></b>, Y. Takagi, K. Tokura, and K. Sugiura, &ldquo;Generating Robot Flow Based on Flow Matching for Object Manipulation&rdquo;, <span class="dom-venue">MIRU 2026, IS1-188</span>.</li>
+  <li>Y. Takagi, M. Kambara, <b><u>D. Yashima</u></b>, K. Seno, K. Tokura, and K. Sugiura, &ldquo;Efficient Vision-Language-Action Model Using Deep State Space Models&rdquo;, <span class="dom-venue">MIRU 2026, IS2-182</span>.</li>
+  <li>S. Koyama, Y. Wada, <b><u>D. Yashima</u></b>, and K. Sugiura, &ldquo;To What Extent Does MLLM-as-a-Judge Exhibit Cross-Model Preference Bias?&rdquo;, <span class="dom-venue">MIRU 2026, OS1E-03</span>. <span class="dom-note">(peer-reviewed, acceptance rate 33.5%)</span></li>
+  <li>細屋達稀, 小山修生, <b><u>八島大地</u></b>, 和田唯我, 杉浦孔明, &ldquo;Binomial Deviance ResidualによるMLLM-as-a-Judgeのモデル選好の解析&rdquo;, <span class="dom-venue">MIRU 2026, IS1-147</span>.</li>
+  <li><b><u>八島大地</u></b>, 栗田修平, 小田悠介, 杉浦孔明, &ldquo;圧縮動画表現に基づくMLLMによる動画理解&rdquo;, <span class="dom-venue">JSAI 2026, 1Yin-A-15</span>.</li>
+  <li>雨宮佳音, <b><u>八島大地</u></b>, 勝又圭, 杉浦孔明, &ldquo;パレットクエリに基づくファッション画像のマルチモーダル検索&rdquo;, <span class="dom-venue">JSAI 2026, 1Yin-A-14</span>.</li>
+  <li>小山修生, 和田唯我, <b><u>八島大地</u></b>, 杉浦孔明, &ldquo;MLLM-as-a-Judgeにおける自己選好バイアスの軽減&rdquo;, <span class="dom-venue">JSAI 2026, 1Yin-A-06</span>.</li>
+  <li>後神美結, 戸倉健登, 雨宮佳音, <b><u>八島大地</u></b>, 勝又圭, 今井悠人, 小松拓実, 是方諒介, 杉浦孔明, &ldquo;シーンテキストを用いたマルチモーダル検索に基づく日常物体操作&rdquo;, <span class="dom-venue">RSJ 2025, 1I2-05</span>.</li>
+  <li>西牧宙輝, <b><u>八島大地</u></b>, 戸倉健登, 杉浦孔明, &ldquo;多言語シーンテキストを考慮した深層状態空間モデルに基づく実世界検索エンジン&rdquo;, <span class="dom-venue">RSJ 2025, 1M3-04</span>.</li>
+  <li>雨宮佳音, 小松拓実, <b><u>八島大地</u></b>, 是方諒介, 勝又圭, 杉浦孔明, &ldquo;NaiLIA: 多層的な依頼文に基づくネイルデザインのマルチモーダル検索&rdquo;, <span class="dom-venue">MIRU 2025, OS2B-07</span>. <span class="dom-note">(peer-reviewed, acceptance rate 34.5%)</span></li>
+  <li><b><u>八島大地</u></b>, 栗田修平, 小田悠介, 鈴木駿太郎, 小槻誠太郎, 杉浦孔明, &ldquo;深層状態空間モデルおよび双方向スキャンに基づくMultimodal LLMによる動画像理解&rdquo;, <span class="dom-venue">MIRU 2025, IS1-140</span>.</li>
+  <li>戸倉健登, 後神美結, 雨宮佳音, <b><u>八島大地</u></b>, 勝又圭, 今井悠人, 小松拓実, 是方諒介, 杉浦孔明, &ldquo;シーンテキストを考慮したCrosslingual Visual Promptに基づくマルチモーダル検索&rdquo;, <span class="dom-venue">MIRU 2025, IS1-141</span>.</li>
+  <li><b><u>八島大地</u></b>, 是方諒介, 杉浦孔明, &ldquo;二重緩和損失を用いたマルチモーダル検索に基づく生活支援ロボットによる物体操作&rdquo;, <span class="dom-venue">JSAI 2025, 1Win4-50</span>.</li>
+  <li>雨宮佳音, 小松拓実, <b><u>八島大地</u></b>, 是方諒介, 勝又圭, 杉浦孔明, &ldquo;NaiLIA: 緩和損失に基づくネイルデザインのマルチモーダル検索&rdquo;, <span class="dom-venue">JSAI 2025, 2Win5-55</span>.</li>
+  <li>勝又圭, 神原元就, <b><u>八島大地</u></b>, 是方諒介, 杉浦孔明, &ldquo;物体操作指示文生成モデルに基づくモバイルマニピュレーションのためのデータセット拡張&rdquo;, <span class="dom-venue">JSAI 2025, 1Win4-49</span>.</li>
+  <li><b><u>八島大地</u></b>, 是方諒介, 杉浦孔明, &ldquo;Multimodal LLMと二重緩和損失に基づく実世界検索エンジン&rdquo;, <span class="dom-venue">RSJ 2024, 3D2-07</span>. <a href="https://speakerdeck.com/keio_smilab/rsj24-open-vocabulary-mobile-manipulation-based-on-dual-relaxed-contrastive-learning-with-dense-labeling">[slides]</a></li>
+</ol>
+
+</div>
