@@ -113,7 +113,6 @@ My research focuses on foundation models and multimodal language understanding f
 
 <h3>Reviewer</h3>
   ARR 2026 (May), ACCV 2026, CoRL 2026
-</ul>
 
 <h2 id="domestic">Domestic Conferences</h2>
 <div class="domestic">
