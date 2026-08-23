@@ -10,6 +10,7 @@ date: 2026-06-30
 venue: 'EMNLP 2026'
 venue_info: 'Acceptance Rate: 15.4%, h5-index: 218'
 paperurl: 'https://arxiv.org/abs/2606.29997'
+projecturl: 'https://rigel-mnghv.kinsta.page/'
 # codeurl: ''
 # blogposturl: ''
 citation: 'S. Koyama, K. Matsuda, Y. Wada, S. Hirano, D. Yashima, and K. Sugiura, "RIGEL: Self-Distilled Score Adaptation for Image and Video Captioning Evaluation", EMNLP, 2026.'
