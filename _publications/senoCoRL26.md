@@ -8,6 +8,7 @@ thumbnail: 'seno26corl.png'
 authors: 'K. Seno, <b><u>D. Yashima</u></b>, Y. Takagi, K. Tokura, and K. Sugiura'
 date: 2026-06-22
 venue: 'CoRL 2026'
+venue_info: 'h5-index: 107'
 paperurl: 'https://arxiv.org/abs/2606.23090'
 projecturl: 'https://flow-as-flow-u0n5y.kinsta.page/'
 # codeurl: ''

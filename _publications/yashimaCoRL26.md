@@ -8,6 +8,7 @@ thumbnail: 'yashima26corl.png'
 authors: '<b><u>D. Yashima</u></b>, Y. Takagi, K. Seno, R. Suzuki, K. Sakata, S. Kurita, and K. Sugiura'
 date: 2026-09-04
 venue: 'CoRL 2026'
+venue_info: 'h5-index: 107'
 # paperurl: ''
 # projecturl: ''
 # codeurl: ''
