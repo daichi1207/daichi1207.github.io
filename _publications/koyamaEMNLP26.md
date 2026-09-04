@@ -7,7 +7,7 @@ excerpt: 'We propose RIGEL, a self-distilled score adaptation method that derive
 thumbnail: 'koyamaemnlp26.png'
 authors: 'S. Koyama, K. Matsuda, Y. Wada, S. Hirano, <b><u>D. Yashima</u></b>, and K. Sugiura'
 date: 2026-06-22
-venue: 'EMNLP 2026'
+venue: 'EMNLP 2026 (main)'
 venue_info: 'Acceptance Rate: 15.4%, h5-index: 218'
 paperurl: 'https://arxiv.org/abs/2606.29997'
 projecturl: 'https://rigel-mnghv.kinsta.page/'
