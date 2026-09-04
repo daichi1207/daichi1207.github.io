@@ -26,7 +26,6 @@ My research focuses on foundation models and multimodal language understanding f
   <li><span class="date">2026/09</span> Two papers have been accepted to CoRL 2026.</li>
   <li><span class="date">2026/08</span> Our paper has been accepted to EMNLP 2026 (main).</li>
   <li><span class="date">2026/07</span> I will be co-organizing the <a href="https://eccv2026-limit-workshop.limitlab.xyz/">LIMIT workshop</a> at ECCV 2026.</li>
-  <li><span class="date">2026/06</span> New paper "Flow as Flow" is out!</li>
   <li><span class="date">2026/06</span> Our paper has been accepted to IROS 2026.</li>
   <li><span class="date">2026/06</span> Our paper has been accepted to INTERSPEECH 2026.</li>
   <li><span class="date">2026/04</span> Awarded JSPS Research Fellowship for Young Scientists (DC1).</li>

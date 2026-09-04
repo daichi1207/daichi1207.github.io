@@ -6,7 +6,7 @@ permalink: /publication/koyamaEMNLP26
 excerpt: 'We propose RIGEL, a self-distilled score adaptation method that derives an evaluation-specific scoring head from a frozen LLM to better align automatic image and video captioning evaluation with human judgments, achieving over 10-point improvements on ActivityNet-Fact in the reference-free setting.'
 thumbnail: 'koyamaemnlp26.png'
 authors: 'S. Koyama, K. Matsuda, Y. Wada, S. Hirano, <b><u>D. Yashima</u></b>, and K. Sugiura'
-date: 2026-06-30
+date: 2026-06-22
 venue: 'EMNLP 2026'
 venue_info: 'Acceptance Rate: 15.4%, h5-index: 218'
 paperurl: 'https://arxiv.org/abs/2606.29997'

@@ -6,9 +6,9 @@ permalink: /publication/senoCoRL26
 excerpt: 'We propose a cross-embodiment framework that treats robot velocity fields as probability flows, modeling them continuously rather than as sparse keypoint displacements, achieving approximately 33x faster generation and higher success rates across real-world manipulation tasks.'
 thumbnail: 'seno26corl.png'
 authors: 'K. Seno, <b><u>D. Yashima</u></b>, Y. Takagi, K. Tokura, and K. Sugiura'
-date: 2026-06-22
+date: 2026-06-30
 venue: 'CoRL 2026'
-venue_info: 'h5-index: 107'
+venue_info: 'Acceptance Rate: 33%, h5-index: 107'
 paperurl: 'https://arxiv.org/abs/2606.23090'
 projecturl: 'https://flow-as-flow-u0n5y.kinsta.page/'
 # codeurl: ''
