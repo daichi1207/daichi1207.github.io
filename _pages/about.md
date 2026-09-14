@@ -13,7 +13,7 @@ redirect_from:
 ---
 
 <p>
-I am a Ph.D. student in Computer Science at Keio University, advised by Prof. <a href="https://komeisugiura.jp/index_en.html">Komei Sugiura</a>. I am supported by the JSPS Research Fellowship for Young Scientists (DC1). I started my Ph.D. in April 2026 after completing the Master's program in one year.
+I am a Ph.D. student in Computer Science at Keio University, advised by Prof. <a href="https://komeisugiura.jp/index_en.html">Komei Sugiura</a>. I am supported by the JSPS Research Fellowship for Young Scientists (DC1). I started my Ph.D. in April 2026 after completing the Master's program in one year. I am currently a Visiting Researcher at Carnegie Mellon University, hosted by Prof. <a href="https://davheld.github.io/">David Held</a>.
 </p>
 
 <p>
@@ -84,15 +84,17 @@ My research focuses on foundation models and multimodal language understanding f
 
 <h3>Research</h3>
 <ul>
-  <li><b>SMILab, Keio University</b>. Research Assistant. Jan. 2025 to Current.</li>
+  <li><b>Carnegie Mellon University</b>. Visiting Researcher. Sep. 2026 to Current.</li>
+  <li><b>SMILab, Keio University</b>. Research Assistant. Jan. 2025 to Mar. 2026.</li>
   <li><b>AIRoA, Tokyo</b>. Intern Research Scientist. Dec. 2025 to Mar. 2026.</li>
   <li><b>HSRTX, Tokyo University</b>. Research Assistant. Jan. 2025 to Nov. 2025.</li>
-  <li><b>LLM-jp, NII LLMC</b>. Research Assistant. Sep. 2024 to Current.</li>
+  <li><b>LLM-jp, NII LLMC</b>. Research Assistant. Sep. 2024 to Aug. 2026.</li>
 </ul>
 
 <h2 id="fellowships">Fellowships</h2>
 <ul>
   <li><b>JSPS Research Fellowship for Young Scientists (DC1)</b>. JPY 220K/month. Apr. 2026 to Mar. 2029.</li>
+  <li><b>JST Broadening Opportunities for Outstanding young researchers and doctoral students in STrategic areas (BOOST)</b>.</li>
 </ul>
 
 <h2 id="talks">Talks</h2>
