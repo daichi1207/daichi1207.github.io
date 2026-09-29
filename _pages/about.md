@@ -92,6 +92,15 @@ My research focuses on foundation models and multimodal language understanding f
   <li><b>LLM-jp, NII LLMC</b>. Research Assistant. Sep. 2024 to Aug. 2026.</li>
 </ul>
 
+<h3>Industry</h3>
+<ul>
+  <li><b>ZenTech, Tokyo</b>. Co-Founder, Lead AI Engineer. Aug. 2024 to Current.</li>
+  <li><b>Wanderlust, Tokyo</b>. Co-Founder, Software Engineer. Dec. 2022 to Jul. 2026.</li>
+  <li><b>At the future</b>. Co-Founder. May 2022 to Apr. 2024.</li>
+  <li><b>Cryptoeconomics Lab, Tokyo</b>. Smart Contract Engineer. Apr. 2022 to Oct. 2023.</li>
+  <li><b>SHINTA VR, Jakarta</b>. Smart Contract Engineer. Mar. 2022 to Jun. 2022.</li>
+</ul>
+
 <h2 id="fellowships">Fellowships</h2>
 <ul>
   <li><b>JSPS Research Fellowship for Young Scientists (DC1)</b>. JPY 220K/month. Apr. 2026 to Mar. 2029.</li>
