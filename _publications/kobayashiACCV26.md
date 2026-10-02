@@ -9,11 +9,9 @@ authors: 'S. Kobayashi, K. Seno, <b><u>D. Yashima</u></b>, and K. Sugiura'
 date: 2026-09-22
 venue: 'ACCV 2026'
 venue_info: 'h5-index: 52'
-# paperurl: ''
-# projecturl: ''
+paperurl: 'https://arxiv.org/abs/2610.00981'
+projecturl: 'https://shota0520.github.io/NarrativeFlow-project-page/'
 # codeurl: ''
 # blogposturl: ''
 citation: 'S. Kobayashi, K. Seno, D. Yashima, and K. Sugiura, "NarrativeFlow: Flow-Based Vision-Language-Action Model Using Robot Velocity Fields", ACCV, 2026.'
 ---
-
-Paper coming soon.
