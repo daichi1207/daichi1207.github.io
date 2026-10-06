@@ -7,7 +7,7 @@ excerpt: 'We propose NarrativeFlow, a flow-based vision-language-action model th
 thumbnail: 'kobayashi26accv.png'
 authors: 'S. Kobayashi, K. Seno, <b><u>D. Yashima</u></b>, and K. Sugiura'
 date: 2026-09-22
-venue: 'ACCV 2026'
+venue: 'ACCV 2026 (oral)'
 venue_info: 'h5-index: 52'
 paperurl: 'https://arxiv.org/abs/2610.00981'
 projecturl: 'https://shota0520.github.io/NarrativeFlow-project-page/'
