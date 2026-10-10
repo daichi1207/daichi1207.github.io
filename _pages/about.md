@@ -38,9 +38,16 @@ My research focuses on robot learning, aiming to develop general-purpose policie
 </ul>
 </div>
 
-<h2 id="publications">Publications</h2>
+<h2 id="selected-publications">Selected Publications</h2>
 
 {% include base_path %}
+{% assign selected_pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
+{% for post in selected_pubs %}
+{% include pub-card.html %}
+{% endfor %}
+
+<h2 id="publications">All Publications</h2>
+
 {% assign all_pubs = site.publications | sort: "date" | reverse %}
 {% assign current_year = "" %}
 {% for post in all_pubs %}
@@ -51,34 +58,7 @@ My research focuses on robot learning, aiming to develop general-purpose policie
 <h3 class="year-heading">{{ year }}</h3>
     {% assign current_year = year %}
   {% endif %}
-  {% if post.id %}
-    {% assign pub_title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-  {% else %}
-    {% assign pub_title = post.title %}
-  {% endif %}
-<div class="pub">
-  {% if post.thumbnail %}
-    <div class="pub-thumb">
-      <img src="{% if post.thumbnail contains '://' %}{{ post.thumbnail }}{% else %}{{ post.thumbnail | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="{{ pub_title | strip_html }}">
-    </div>
-  {% endif %}
-  <div class="pub-body">
-    <div class="pub-title">{{ pub_title }}</div>
-    {% if post.authors %}<div class="pub-authors">{{ post.authors }}</div>{% endif %}
-    {% if post.venue %}<div class="pub-venue"><em>{{ post.venue }}</em>{% if post.venue_info %} ({{ post.venue_info }}){% endif %}</div>{% endif %}
-    {% if post.paperurl or post.projecturl or post.codeurl or post.dataseturl or post.blogposturl or post.slidesurl or post.bibtexurl %}
-      <div class="pub-links">
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">[paper]</a>{% endif %}
-        {% if post.projecturl %}<a href="{{ post.projecturl }}">[project]</a>{% endif %}
-        {% if post.codeurl %}<a href="{{ post.codeurl }}">[code]</a>{% endif %}
-        {% if post.dataseturl %}<a href="{{ post.dataseturl }}">[dataset]</a>{% endif %}
-        {% if post.blogposturl %}<a href="{{ post.blogposturl }}">[blog]</a>{% endif %}
-        {% if post.slidesurl %}<a href="{{ post.slidesurl }}">[slides]</a>{% endif %}
-        {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">[bibtex]</a>{% endif %}
-      </div>
-    {% endif %}
-  </div>
-</div>
+{% include pub-card.html %}
 {% endfor %}
 
 <h2 id="experience">Experience</h2>
@@ -122,6 +102,9 @@ My research focuses on robot learning, aiming to develop general-purpose policie
 </ul>
 
 <h2 id="service">Academic Service</h2>
+
+<h3>Workshop Co-Organizer</h3>
+  <a href="https://eccv2026-limit-workshop.limitlab.xyz/">LIMIT Workshop</a> at ECCV 2026
 
 <h3>Reviewer</h3>
   ARR, ACCV, CoRL, NeurIPS

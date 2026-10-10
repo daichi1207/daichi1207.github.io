@@ -3,6 +3,7 @@ title: "Flow as Flow: Modeling Robot Velocity Fields as Probability Velocity Fie
 collection: publications
 category: manuscripts
 permalink: /publication/senoCoRL26
+selected: true
 excerpt: 'We propose a cross-embodiment framework that treats robot velocity fields as probability flows, modeling them continuously rather than as sparse keypoint displacements, achieving approximately 33x faster generation and higher success rates across real-world manipulation tasks.'
 thumbnail: 'seno26corl.png'
 authors: 'K. Seno, <b><u>D. Yashima</u></b>, Y. Takagi, K. Tokura, and K. Sugiura'

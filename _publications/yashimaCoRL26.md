@@ -3,6 +3,7 @@ title: "MoFlo: Language-Conditioned Flow Matching for Policy Mobilization"
 collection: publications
 category: manuscripts
 permalink: /publication/yashimaCoRL26
+selected: true
 excerpt: 'We propose MoFlo, a language-conditioned flow matching approach for policy mobilization.'
 thumbnail: 'yashima26corl.png'
 authors: '<b><u>D. Yashima</u></b>, Y. Takagi, K. Seno, R. Suzuki, K. Sakata, S. Kurita, and K. Sugiura'
