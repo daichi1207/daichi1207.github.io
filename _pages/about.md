@@ -130,6 +130,9 @@ My research focuses on foundation models and multimodal language understanding f
 <div class="domestic">
 
 <ol>
+  <li>妹尾幸樹, <b><u>八島大地</u></b>, 髙木裕輔, 戸倉健登, 杉浦孔明, &ldquo;物理速度場と確率速度場の統合による Flow Matching に基づく物体操作&rdquo;, <span class="dom-venue">RSJ 2026, 1D2-01</span>.</li>
+  <li>髙木裕輔, 神原元就, <b><u>八島大地</u></b>, 妹尾幸樹, 戸倉健登, 杉浦孔明, &ldquo;深層状態空間モデルに基づく軽量VLAによる物体操作&rdquo;, <span class="dom-venue">RSJ 2026, 1D2-02</span>.</li>
+  <li>小林菖太, 妹尾幸樹, <b><u>八島大地</u></b>, 杉浦孔明, &ldquo;Flow Matchingおよび変化キャプショニングに基づく物体操作の学習&rdquo;, <span class="dom-venue">RSJ 2026, 3A2-03</span>.</li>
   <li>K. Amemiya, <b><u>D. Yashima</u></b>, K. Katsumata, and K. Sugiura, &ldquo;Nail Design Image Retrieval with Dense Intent Descriptions and Palette Queries&rdquo;, <span class="dom-venue">MIRU 2026, DS-03</span>.</li>
   <li>K. Tokura, M. Goko, K. Amemiya, <b><u>D. Yashima</u></b>, K. Katsumata, T. Komatsu, R. Korekata, and K. Sugiura, &ldquo;Scene Text-Guided Object Retrieval and Manipulation from Free-Form Instructions&rdquo;, <span class="dom-venue">MIRU 2026, IS2-131</span>.</li>
   <li>K. Seno, <b><u>D. Yashima</u></b>, Y. Takagi, K. Tokura, and K. Sugiura, &ldquo;Generating Robot Flow Based on Flow Matching for Object Manipulation&rdquo;, <span class="dom-venue">MIRU 2026, IS1-188</span>.</li>
