@@ -17,7 +17,7 @@ I am a Ph.D. student in Computer Science at Keio University, advised by Prof. <a
 </p>
 
 <p>
-My research focuses on foundation models and multimodal language understanding for embodied AI: building systems that can execute complex tasks in the physical world. I work on multimodal large language models, vision-language-action models and mobile manipulation.
+My research focuses on robot learning, aiming to develop general-purpose policies that can perform complex tasks across diverse real-world environments. I am particularly interested in learning transferable representations that enable data-efficient generalization in robotic manipulation and mobile manipulation.
 </p>
 
 <h2 id="news">News</h2>
