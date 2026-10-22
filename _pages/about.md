@@ -103,8 +103,8 @@ My research focuses on robot learning, aiming to develop general-purpose policie
 
 <h2 id="service">Academic Service</h2>
 
-<h3>Workshop Co-Organizer</h3>
-  <a href="https://eccv2026-limit-workshop.limitlab.xyz/">LIMIT Workshop</a> at ECCV 2026
+<h3>Workshop Organizer</h3>
+  Co-organized <a href="https://eccv2026-limit-workshop.limitlab.xyz/">LIMIT Workshop</a> at ECCV 2026
 
 <h3>Reviewer</h3>
   ARR, ACCV, CoRL, NeurIPS
