@@ -109,10 +109,11 @@ My research focuses on robot learning, aiming to develop general-purpose policie
 <h3>Reviewer</h3>
   ARR, ACCV, CoRL, NeurIPS
 
-<h2 id="domestic">Domestic Conferences</h2>
+<h2 id="other-publications">Other Publications</h2>
 <div class="domestic">
 
 <ol>
+  <li>K. Tokura, R. Korekata, <b><u>D. Yashima</u></b>, K. Katsumata, K. Amemiya, M. Goko, and K. Sugiura, &ldquo;STARE: Scene Text-Aware multimodal Retrieval for Everyday objects&rdquo;, <span class="dom-venue">ACCV 2026 MM4SciReal Workshop</span>. <a href="https://arxiv.org/abs/2611.06089">[paper]</a> <a href="https://stare-projectpage.pages.dev/">[project]</a></li>
   <li>妹尾幸樹, <b><u>八島大地</u></b>, 髙木裕輔, 戸倉健登, 杉浦孔明, &ldquo;物理速度場と確率速度場の統合による Flow Matching に基づく物体操作&rdquo;, <span class="dom-venue">RSJ 2026, 1D2-01</span>.</li>
   <li>髙木裕輔, 神原元就, <b><u>八島大地</u></b>, 妹尾幸樹, 戸倉健登, 杉浦孔明, &ldquo;深層状態空間モデルに基づく軽量VLAによる物体操作&rdquo;, <span class="dom-venue">RSJ 2026, 1D2-02</span>.</li>
   <li>小林菖太, 妹尾幸樹, <b><u>八島大地</u></b>, 杉浦孔明, &ldquo;Flow Matchingおよび変化キャプショニングに基づく物体操作の学習&rdquo;, <span class="dom-venue">RSJ 2026, 3A2-03</span>.</li>
