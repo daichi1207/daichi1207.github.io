@@ -107,7 +107,7 @@ My research focuses on robot learning, aiming to develop general-purpose policie
   Co-organized <a href="https://eccv2026-limit-workshop.limitlab.xyz/">LIMIT Workshop</a> at ECCV 2026
 
 <h3>Reviewer</h3>
-  ARR, ACCV, CoRL, NeurIPS
+  ARR, ACCV, CoRL, ICRA, NeurIPS
 
 <h2 id="other-publications">Other Publications</h2>
 <div class="domestic">
